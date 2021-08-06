@@ -10,9 +10,12 @@ import requests
 import re
 
 url = "https://www.formula1.com/en/latest.html"
+url2 = "https://www.autosport.com/f1/news/"
 articles = []
 respone = urllib.request.urlopen(url)
 soup = BeautifulSoup(respone,'lxml')
+respone2 = urllib.request.urlopen(url2)
+soup2 =  BeautifulSoup(respone2,'lxml')
 
 
 
