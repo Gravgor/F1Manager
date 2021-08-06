@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <title>F1Manager</title>
+        <link rel="stylesheet" href="resources/main.css">
+        <script src="https://kit.fontawesome.com/ef82878502.js" crossorigin="anonymous"></script>
+    </HEAD>
+<style>
+
+
+
+
+
+    .logo_main {
+        text-align: center;
+        margin: 0 auto;
+       position: relative;
+       width: 130px;
+    }
+    .logo_image{
+        margin-top: 250px;
+        margin-left: -80px;
+        margin-bottom: -30px;
+        width: 250%;
+        transition: transform .5s;
+    }
+    .logo_text {
+        color: white;
+        display: flex;
+        font-size: large;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+        opacity: 0;
+        transition: opacity .5s;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+    }
+
+    .logo_main:hover .logo_image{
+        transform: translateY(-60px);
+    }
+
+    .logo_main:hover .logo_text{
+        opacity: 1;
+    }
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: right;
+    text-shadow: 0cm;
+    margin-bottom: -15px;
+    padding: 10px;
+}
+
+footer p{
+    opacity: 0;
+    font-family: sans-serif;
+    float: center;
+}
+
+.fab{
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: right;
+    text-decoration: none;
+    margin: 1px 1px;
+}
+
+
+
+.footer2{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+
+
+.nav_main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*header{
+    margin-top: -20px;
+   margin-left: -50px;
+   margin-right: -7px;
+    background: red;
+    padding-bottom: 25px;
+}*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: -40px;
+    overflow: hidden;
+    background-color: red;
+  }
+
+  li{
+      float: center;
+      font-family: sans-serif;
+      font-weight: bold;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(255, 0, 0);
+  }
+
+  /*.discord_img{
+      position: fixed;
+      width: 100px;
+  }*/
+
+</style>
+<body>
+<header>
+        <ul>
+            <li><a href="#">Our discord server</a></li>
+            </ul>   
+</header>
+
+
+<div class="bg-image"></div>
+
+<div class="logo_main">
+    <img class="logo_image"src="resources\f1_logo.png"/>
+    <span class="logo_text"> F1Manager online game project. To be filled lalala  </span>
+</div>
+
+
+<footer>
+        <p>F1Manager 2021-2021</p>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+
+/*footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: right;
+    text-shadow: 0cm;
+    margin-bottom: -15px;
+    padding: 10px;
+}
+*/
+footer p{
+    opacity: 0;
+    font-family: sans-serif;
+    float: center;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.img_body_logo{
+    width: 25%;
+    position: absolute;
+    right:1050px;
+    bottom: 135px;
+    top: 200px;
+    border-radius: 55px;
+    filter: blur(5px);
+}
+
+.img_body_register{
+    width: 25%;
+    position: absolute;
+    right: 370px;
+    bottom: 135px;
+    top: 190px;
+    border-radius: 55px;
+    filter: blur(5px);
+}
+
+.body_login_photo .btn{
+    background-color: red;
+    border-radius: 12px;
+    padding: 14px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    right: 60%;
+    display: inline-block;
+    width: 15%;
+    transition-duration: 0.4s;
+}
+.body_login_photo .btn:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.body_register_photo .btn1{
+    background-color: red;
+    border-radius: 12px;
+    padding: 14px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    right: 24%;
+    display: inline-block;
+    width: 15%;
+    transition-duration: 0.4s;
+}
+
+.body_register_photo .btn1:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text]{
+    position: absolute;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 2px solid red;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 13%;
+  }
+
+  input[type=password]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 2px solid red;
+  transition: width 0.4s ease-in-out;
+  position: relative;
+}
+
+input[type=password]:focus {
+    width: 13%;
+    border: 2px solid red;
+  }
+
+

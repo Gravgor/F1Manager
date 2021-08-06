@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>F1 Manager - login/register</title>
+<link rel="stylesheet" href="resources/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="body_login_photo">
+    <img class="img_body_logo" src="resources/mercedes_login.jpg">
+    <button class="btn" id="login_btn" onclick="action();">Log into game!</button>
+      <label for="username">Username:</label><br>
+      <input type="text" id="login_l" name="login" placeholder="Insert login">
+      <label for="pwd">Password:</label><br>
+      <input type="password" id="login_2" name="password" placeholder="Insert password">
+    
+   
+  </div>    
+
+  <div class="body_register_photo">
+      <img class="img_body_register" src="resources/ferrari_register.jpg">
+      <button class="btn1" id="register_btn" onclick="action2();">Register for our game!</button>
+  </div>
+
+
+
+
+    
+    
+    
+    
+    
+    <footer>
+        <p>F1 Manager</p>
+</footer>
+
+
+</body>
+<script type="text/javascript">
+
+  $(document).ready(function() {
+    var target = $("#login_btn");
+    $("#login_btn").click(function() {
+      removeElement(target);
+    });
+  });
+  
+
+  $(document).ready(function() {
+    var target = $("#register_btn");
+    $("#register_btn").click(function() {
+      removeElement(target);
+    });
+  });
+
+
+  function removeElement(target) {
+    target.animate({
+      opacity: "-=1"
+    }, 2500, function() {
+      target.remove();
+    });
+  }
+
+
+
+/*var hidden = false;
+function action(){
+hidden = !hidden;
+if(hidden){
+  document.getElementById("login_btn").style.visibility = 'hidden';
+}else{
+  document.getElementsByClassName("login_btn").style.visibility = 'visible';
+}
+}
+
+function action2(){
+  hidden = !hidden;
+  if(hidden){
+    document.getElementById("register_btn").style.visibility = 'hidden';
+  }
+  else{
+    document.getElementById("register_btn").style.visibility = 'visible';
+  }
+  }*/
+</script>
+
+</html>

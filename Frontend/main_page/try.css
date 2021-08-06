@@ -1,0 +1,7 @@
+background-color: red;
+    background-image:
+    linear-gradient(
+        to right,
+        #e10600,
+        black 50%
+    );
